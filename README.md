@@ -7,9 +7,7 @@ A simple little jQuery script that 'hijacks' all standard anchor hrefs and loads
 Usage
 --------------
 
-To use hijack.js, simply load jQuery (the example below uses jQuery from Google's CDN but you can use it from your own server) and then simply load the hijack.js file:
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="hijack.js"></script>
+To use hijack.js, simply load jQuery and then simply load the hijack.js file.
 
 Thats it! There are no options (yet).
 
