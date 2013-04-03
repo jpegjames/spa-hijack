@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Index</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="James Pierce">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" media="(device-height: 568px)">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<!-- Date: 2013-03-27 -->
+	
+	<style type="text/css" media="screen"> 
+		body {
+			width: 320px;
+			margin: 0;
+			font-family: Arial;
+		}
+		header {
+			background: pink;
+			text-align: center;
+			color: #fff;
+			font-size: 30px;
+			height: 60px;
+			line-height: 60px;
+		}
+		.nav {
+			background: #ccc;
+			text-align: center;
+			padding: 10px;
+		}
+		.nav a {
+			color: #333;
+		}
+		.content {
+			background: green; 
+			color: white; 
+			padding: 5px;
+		}
+	</style>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="hijack.js"></script>
+
+	
+	
+</head>
+<body>
+	<header>
+		My SPA App
+	</header>
+	<div class="nav">
+		<a href="example.html"><strong>Page 1</strong></a> | <a href="example-page2.html">Page 2</a>
+	</div>
+	<div class="content">
+		<p>This is a standard html page with links to a other html pages using standard GET requests. However, with javascript enabled, highjack.js will intercept all anchor tags, request the page via ajax and the replace the entire body content. This is a simple way to create quick SPA prototypes for use as mobile-web-app-capable applications.</p>
+		<p>Note: Everything in the head of the other pages will ignored. Only the content within the body tag will be loaded.</p>
+	</div>
+	
+
+</body>
+</html>
