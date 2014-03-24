@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('a').click(ajaxhighjack)
+	$('a').not('.no-hijack').click(ajaxhighjack)
 })
 
 function ajaxhighjack(e) {
